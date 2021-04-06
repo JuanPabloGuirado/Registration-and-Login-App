@@ -72,6 +72,13 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- Latest dependency addition, spring security and thymeleaf integration -->
+		<!-- Used for printing spring security related data in thymeleaf (user and email address)-->
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
+		</dependency>
+	
 	</dependencies>
 
 	<build>

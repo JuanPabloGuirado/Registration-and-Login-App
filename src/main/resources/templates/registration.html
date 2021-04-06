@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration Form</title>
@@ -30,6 +30,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
+				
 				<!-- success message -->
 				<!-- this 'success param' is the one referenced in the controller's post method -->
 				<div th:if="${param.success}">
